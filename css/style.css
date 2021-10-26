@@ -2,19 +2,24 @@ html {
     scroll-behavior: smooth !important;
   }
 
-@keyframes example {
+body {
+    background-color: rgba(247, 199, 199, 0.459);
+}
+
+/*
+@keyframes sfondo {
     from {background-color: rgba(247, 199, 199, 0.459);}
     to {background-color: rgba(252, 215, 115, 0.603);}
   }
 
   div.container-fluid {
     background-color: rgb(243, 177, 177);
-     animation-name: example;
+     animation-name: sfondo;
      animation-duration: 5s;
      animation-direction: alternate;
      animation-iteration-count: infinite;
      animation-timing-function:ease-in-out;
-   }
+   } */
 
    header {
        position: fixed;
